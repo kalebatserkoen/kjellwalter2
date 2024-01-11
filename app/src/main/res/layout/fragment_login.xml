@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textlogingebruikersnaam"
+        android:layout_width="183dp"
+        android:layout_height="41dp"
+        android:text="gebruikersnaam"
+        android:textColor="#0A0B0A"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <EditText
+        android:id="@+id/wachtwoord_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="wachtwoord"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <EditText
+        android:id="@+id/gebruikersnaam_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wachtwoord"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="verder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wachtwoord_login"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#0B0A0A"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textlogindonthaveaacount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an acount? Make one in signup!"
+        android:textColor="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
