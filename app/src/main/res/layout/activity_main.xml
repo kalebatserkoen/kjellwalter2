@@ -9,11 +9,11 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/titel_landing"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="391dp"
-        android:layout_height="783dp"
+        android:layout_width="393dp"
+        android:layout_height="785dp"
         android:layout_marginEnd="24dp"
         app:defaultNavHost="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:navGraph="@navigation/navigation"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="-2dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
