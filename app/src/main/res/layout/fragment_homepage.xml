@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout_homepage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/afbeelding_app"
     tools:context=".homepage">
 
     <!-- TODO: Update blank fragment layout -->
@@ -26,7 +27,7 @@
         android:id="@+id/button_homepagevoorspel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#009688"
         android:text="voorspellen"
         app:iconTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +42,7 @@
         android:id="@+id/button_homepagepunten"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#009688"
         android:text="punten"
         app:iconTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,11 +58,25 @@
         android:layout_height="wrap_content"
         android:text="voorspel hier"
         android:textColor="#0C0C0C"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.461" />
+
+    <TextView
+        android:id="@+id/text_hompagepunten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bekijk hier je punten"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

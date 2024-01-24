@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/afbeelding_app"
     tools:context=".login">
 
     <!-- TODO: Update blank fragment layout -->
@@ -76,7 +77,7 @@
         android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#009688"
         android:text="verder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
