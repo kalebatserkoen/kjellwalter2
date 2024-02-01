@@ -7,13 +7,12 @@
     tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/titel_landing"
+        android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="391dp"
-        android:layout_height="783dp"
-        android:layout_marginEnd="4dp"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
         app:defaultNavHost="true"
-        app:layout_constraintEnd_toEndOf="parent"
         app:navGraph="@navigation/navigation"
-        tools:layout_editor_absoluteY="-5dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

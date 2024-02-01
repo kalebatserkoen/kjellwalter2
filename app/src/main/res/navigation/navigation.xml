@@ -21,15 +21,28 @@
         android:id="@+id/login"
         android:name="com.example.kjellwalter.login"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_homepage"
+            app:destination="@id/homepage" />
+    </fragment>
     <fragment
         android:id="@+id/signup"
         android:name="com.example.kjellwalter.signup"
         android:label="fragment_signup"
-        tools:layout="@layout/fragment_signup" />
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signup_to_homepage"
+            app:destination="@id/homepage" />
+    </fragment>
     <fragment
         android:id="@+id/voorspelFragment"
         android:name="com.example.kjellwalter.voorspelFragment"
         android:label="fragment_voorspel"
         tools:layout="@layout/fragment_voorspel" />
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.example.kjellwalter.homepage"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" />
 </navigation>
