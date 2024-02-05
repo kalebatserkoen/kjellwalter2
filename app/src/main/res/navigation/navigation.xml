@@ -44,5 +44,14 @@
         android:id="@+id/homepage"
         android:name="com.example.kjellwalter.homepage"
         android:label="fragment_homepage"
-        tools:layout="@layout/fragment_homepage" />
+        tools:layout="@layout/fragment_homepage" >
+        <action
+            android:id="@+id/action_homepage_to_voorspellen"
+            app:destination="@id/voorspellen" />
+    </fragment>
+    <fragment
+        android:id="@+id/voorspellen"
+        android:name="com.example.kjellwalter.voorspellen"
+        android:label="fragment_voorspellen"
+        tools:layout="@layout/fragment_voorspellen" />
 </navigation>
