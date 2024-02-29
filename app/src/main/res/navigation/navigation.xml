@@ -48,10 +48,18 @@
         <action
             android:id="@+id/action_homepage_to_voorspellen"
             app:destination="@id/voorspellen" />
+        <action
+            android:id="@+id/action_homepage_to_punten"
+            app:destination="@id/punten" />
     </fragment>
     <fragment
         android:id="@+id/voorspellen"
         android:name="com.example.kjellwalter.voorspellen"
         android:label="fragment_voorspellen"
         tools:layout="@layout/fragment_voorspellen" />
+    <fragment
+        android:id="@+id/punten"
+        android:name="com.example.kjellwalter.punten"
+        android:label="fragment_punten"
+        tools:layout="@layout/fragment_punten" />
 </navigation>

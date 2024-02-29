@@ -46,10 +46,26 @@
         android:text="Kjell voorspel"
         android:textColor="#000000"
         android:textColorLink="#3A8BAF"
-        android:textSize="34sp"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_landing_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:text="De voorspelapp zonder onnodige geldverliezen!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button_landing_signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/titel_landing"
+        app:layout_constraintVertical_bias="0.096" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

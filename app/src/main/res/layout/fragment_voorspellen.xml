@@ -128,7 +128,7 @@
         android:id="@+id/voorspel_hier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="voorspel hier"
+        android:text="Voorspel Hier"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
