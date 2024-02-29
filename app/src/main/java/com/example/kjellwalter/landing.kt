@@ -38,9 +38,13 @@ class landing : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_landing, container, false)
 
-        view.findViewById<Button>(R.id.button_landing_login).setOnClickListener { Navigation.findNavController(view).navigate(R.id.action_landing_to_login) }
+        view.findViewById<Button>(R.id.button_landing_login).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_landing_to_login)
+        }
 
-        view.findViewById<Button>(R.id.button_landing_signup).setOnClickListener { Navigation.findNavController(view).navigate(R.id.action_landing_to_signup) }
+        view.findViewById<Button>(R.id.button_landing_signup).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_landing_to_signup)
+        }
         return view
     }
 
