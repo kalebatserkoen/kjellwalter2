@@ -15,10 +15,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [homepage.newInstance] factory method to
+ * Use the [punten.newInstance] factory method to
  * create an instance of this fragment.
  */
-class homepage : Fragment() {
+class punten : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,17 +35,13 @@ class homepage : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_homepage, container, false)
+            // Inflate the layout for this fragment
+            val view = inflater.inflate(R.layout.fragment_punten, container, false)
 
-        view.findViewById<Button>(R.id.button_homepagevoorspel).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_homepage_to_voorspellen)
+
+            return view
         }
 
-        view.findViewById<Button>(R.id.button_homepagepunten).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_homepage_to_punten)
-        }
 
-        return view
-    }
+
 }
