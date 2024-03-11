@@ -42,8 +42,8 @@ class homepage : Fragment() {
             Navigation.findNavController(view).navigate(R.id.action_homepage_to_voorspellen)
         }
 
-        view.findViewById<Button>(R.id.button_homepagepunten).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_homepage_to_punten)
+        view.findViewById<Button>(R.id.button_homepagejouwvoorspellingen).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_homepage_to_jouwvoorspelling)
         }
 
         return view

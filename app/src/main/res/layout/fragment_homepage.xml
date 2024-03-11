@@ -39,11 +39,11 @@
         app:rippleColor="#4CAF50" />
 
     <Button
-        android:id="@+id/button_homepagepunten"
+        android:id="@+id/button_homepagejouwvoorspellingen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#009688"
-        android:text="punten"
+        android:text="Jouw  voorspellingen"
         app:iconTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,10 +66,10 @@
         app:layout_constraintVertical_bias="0.461" />
 
     <TextView
-        android:id="@+id/text_hompagepunten"
+        android:id="@+id/text_hompagebekijkjevoorspelling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bekijk hier je punten"
+        android:text="bekijk hier je voorspellingen"
         android:textColor="#070707"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

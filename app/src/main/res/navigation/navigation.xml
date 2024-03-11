@@ -49,8 +49,8 @@
             android:id="@+id/action_homepage_to_voorspellen"
             app:destination="@id/voorspellen" />
         <action
-            android:id="@+id/action_homepage_to_punten"
-            app:destination="@id/punten" />
+            android:id="@+id/action_homepage_to_jouwvoorspelling"
+            app:destination="@id/jouwvoorspelling" />
     </fragment>
     <fragment
         android:id="@+id/voorspellen"
@@ -58,8 +58,8 @@
         android:label="fragment_voorspellen"
         tools:layout="@layout/fragment_voorspellen" />
     <fragment
-        android:id="@+id/punten"
-        android:name="com.example.kjellwalter.punten"
-        android:label="fragment_punten"
-        tools:layout="@layout/fragment_punten" />
+        android:id="@+id/jouwvoorspelling"
+        android:name="com.example.kjellwalter.Jouwvoorspelling"
+        android:label="fragment_jouwvoorspelling"
+        tools:layout="@layout/fragment_jouwvoorspelling" />
 </navigation>
