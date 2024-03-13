@@ -38,6 +38,8 @@ class homepage : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_homepage, container, false)
 
+
+
         view.findViewById<Button>(R.id.button_homepagevoorspel).setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_homepage_to_voorspellen)
         }
